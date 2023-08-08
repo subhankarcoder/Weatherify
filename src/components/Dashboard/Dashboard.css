@@ -1,0 +1,171 @@
+.dash-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.home-img {
+    margin-top: 20px;
+    height: 30vh;
+    width: 61vw;
+    background-image: url("../../Assets/Images/home_img.png");
+    background-size: cover;
+    color: #ffffff;
+}
+.home-img h1 {
+    position: relative;
+    top: 95px;
+    left: -15px;
+    font-size: 20px;
+    text-align: end;
+}
+.home-img h1 span {
+    font-size: 14px;
+    font-weight: 300;
+}
+.info {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 0 1.8fr 1.9fr 0.8fr 0;
+    width: 61vw;
+    height: 25vh;
+    /* background-color: aquamarine; */
+}
+.date-time {
+    /* padding: 10px; */
+    grid-column: 1/3;
+    height: 17vh;
+    width: 95%;
+    background-color: #F0F5FF;
+    box-shadow: 5px 5px 15px rgba(202, 202, 202, 0.3);
+    border-top: 5px solid #6065F7;
+    border-radius: 5px;
+}
+.date-time-info {
+    padding-left: 15px;
+}
+.date-time h4 {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.date-time h1 {
+    margin-top: -12px;
+}
+.date-time p {
+    font-weight: 400;
+    font-size: 10px;
+    margin-top: -20px;
+}
+.weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 3/4;
+    width: 95%;
+    height: 19vh;
+    background-color: #F0F5FF;
+    box-shadow: 5px 5px 15px rgba(202, 202, 202, 0.3);
+    border-top: 5px solid #6065F7;
+    border-radius: 5px;
+}
+.weather-img img {
+    height: 70px;
+    width: auto;
+    margin-left: 15px;
+}
+.weather-details {
+    margin-right: 15px;
+}
+.weather-details h1 {
+    margin-top: -10px;
+    font-size: 30px;
+}
+.details-wet {
+    margin-top: 10px;
+    font-size: 12px;
+}
+.humidity {
+    margin-top: -5px;
+    font-size: 16px;
+}
+.temparature {
+    text-align: center;
+    grid-column: 4/6;
+    background-color: #6065F7;
+    color: #ffffff;
+    width: 100%;
+    height: 20vh;
+}
+.temparature h1 {
+    font-size: 45px;
+}
+.temparature p {
+    margin-top: -25px;
+    font-size: 12px;
+}
+.Search {
+    width: 20vw;
+    /* height: 10vh; */
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+.Search img {
+    height: 15px;
+    width: auto;
+}
+.Search input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.search-place {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 10px;
+    margin-top: 15px;
+    width: 61vw;
+    height: 20vh;
+    background-color: #EEF2FF;
+}
+/* place-name
+place-humidity
+place-visibility
+place-temperature
+place-wind */
+
+.place-name,
+.place-humidity,
+.place-visibility,
+.place-temperature,
+.place-wind {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.place-humidity,
+.place-visibility,
+.place-temperature,
+.place-wind {
+    width: 100%;
+    height: 15vh;
+    border-right: 1px solid #D0D0D0;
+}
+.place-humidity img {
+    height: 70px;
+    width: auto;
+}
+.place-humidity p {
+    font-size: 12px;
+    margin-top: -10px;
+}
+.place-humidity h1 span {
+    font-size: 18px;
+}
+.place-special {
+    border: none;
+}
