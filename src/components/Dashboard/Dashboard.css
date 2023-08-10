@@ -70,11 +70,14 @@
     border-top: 5px solid #6065F7;
     border-radius: 5px;
 }
-.weather-img img {
+.weather-img {
+    margin-left: 15px;
+}
+/* .weather-img img {
     height: 70px;
     width: auto;
     margin-left: 15px;
-}
+} */
 .weather-details {
     margin-right: 15px;
 }

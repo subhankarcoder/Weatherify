@@ -23,6 +23,7 @@
 .list ul li {
     display: flex;
     margin-top: 10px;
+    margin-left: -17px;
 }
 .list ul li img {
     margin-right: 5px;
